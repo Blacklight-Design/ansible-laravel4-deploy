@@ -2,6 +2,7 @@
 # defaults file for .
 laravel_composer_path: false
 laravel_strategy: git
+laravel_git_recursive: yes
 laravel_branch: master
 laravel_env: prod
 laravel_php_path: /usr/bin/php
