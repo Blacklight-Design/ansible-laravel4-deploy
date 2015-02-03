@@ -28,7 +28,7 @@ Other Deployment Roles
 
 Symfony: [symfony-deploy](https://galaxy.ansible.com/list#/roles/2111)
 
-Laravel5: [laravel4-deploy](https://galaxy.ansible.com/list#/roles/2145)
+Laravel5: [laravel5-deploy](https://galaxy.ansible.com/list#/roles/2145)
 
 Requirements
 ------------
