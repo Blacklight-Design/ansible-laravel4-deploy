@@ -17,7 +17,7 @@
   register: deployed
 
 - name: Git deploy.
-  git: repo={{ laravel_repo }} dest={{ laravel_root_dir }}/releases/{{ release_version.stdout }} version={{ laravel_branch }}
+  git: repo={{ laravel_repo }} dest={{ laravel_root_dir }}/releases/{{ release_version.stdout }} version={{ laravel_branch }} recursive="{{ laravel_git_recursive }}"
   when: laravel_strategy == "git" and local_path|success
   ignore_errors: true
   register: deployed

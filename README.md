@@ -61,6 +61,10 @@ The branch that you would like to deploy.
 
 The deployment strategy to use. Available options: git, svb, mercurial, rsync
 
+### laravel_git_recursive (Defaults: yes)
+
+Used when deploying via Git. If yes, git will recursively clone the target repository. Available options: yes, no
+
 ### laravel_local_root (Defaults: /)
 
 This option is only used when deploying via Rsync. It defines the path to the local folder to upload to the server.
